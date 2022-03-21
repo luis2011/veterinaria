@@ -1,0 +1,81 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0 5px 0 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+.text p{
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text p span{
+    font-weight: bold;
+}
+.outstanding{
+    font-weight: bold;
+    color:red;
+    font-size:24px;
+    text-align: center;
+}
+
+.service h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.service_image{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.service_image_card{
+    text-align: center;
+}
+.service_image_card img{
+    width: 150px;
+    height:150px;
+    
+}
+.service_image_card p{
+    width: 250px;
+    height:auto;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.footer-icon ul li{
+    display:inline-flex;
+    flex-direction:row;
+    padding: 0 5px 0 5px;
+    
+}
+
